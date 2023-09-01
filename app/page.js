@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Main1 />
       <Main2 />
-      {/* <Main3 />  */}
+      <Main3 />
     </>
   );
 }

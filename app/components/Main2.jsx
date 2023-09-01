@@ -144,12 +144,12 @@ export default function Main2() {
         <div className="m2_price_list">
           <label
             htmlFor="prices"
-            className="">
+            className="label">
             Price range
           </label>
           <select
             name="prices"
-            className=" ">
+            className="prices prices1 ">
             <option value="2000">$2000</option>
             <option value="3000">$3000</option>
             <option value="4000">$4000</option>
@@ -161,8 +161,8 @@ export default function Main2() {
             <option value="10000">$10000</option>
           </select>
           <select
-            name="prices"
-            className="">
+            name=""
+            className="prices prices2">
             <option value="2000">$2000</option>
             <option value="3000">$3000</option>
             <option value="4000">$4000</option>
@@ -173,17 +173,17 @@ export default function Main2() {
             <option value="9000">$9000</option>
             <option value="10000">$10000</option>
           </select>
-          <p className="">Amenities</p>
+          <p className="amenities">Amenities</p>
           <div className="m2_price_list_grid">
-            <p className="bg">Balcony</p>
-            <p className="">Parking</p>
-            <p className="">Elevator</p>
-            <p className="span_ac">Air Conditioning</p>
-            <p className="">Garden</p>
-            <p className="">Wi-Fi</p>
-            <p className="">Doorman</p>
-            <p className="">Kitchen</p>
-            <p className="">Smoking</p>
+            <p className="plgi plgi1">Balcony</p>
+            <p className="plgi plgi2">Parking</p>
+            <p className="plgi plgi3">Elevator</p>
+            <p className="plgi plgi4">AC</p>
+            <p className="plgi plgi5">Garden</p>
+            <p className="plgi plgi6">Wi-Fi</p>
+            <p className="plgi plgi7">Doorman</p>
+            <p className="plgi plgi8">Kitchen</p>
+            <p className="plgi plgi9">Smoking</p>
           </div>
         </div>
       </div>
