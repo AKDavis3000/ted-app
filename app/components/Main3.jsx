@@ -67,13 +67,15 @@ export default function Main3() {
         {/* all articles */}
         <div className="m3gi3_articles">
           <div className="article article1">
-            <Image
-              src="/img/living.jpg"
-              alt="a living room"
-              width={350}
-              height={280}
-              className="m3gi3_img img1"
-            />
+            <div className="m3gi3_img_wrapper">
+              <Image
+                src="/img/living.jpg"
+                alt="a living room"
+                width={290}
+                height={200}
+                className="m3gi3_img img1"
+              />
+            </div>
             <p className="m3gi3_p3">Insight</p>
             <p className="m3gi3_p4">
               The ultimate checklist you need for buying a property
@@ -84,7 +86,7 @@ export default function Main3() {
                 alt="a smiling man"
                 width={40}
                 height={40}
-                className="m3gi3_img img2"
+                className="m3gi3_img author1_img"
               />
 
               <p className="m3gi3_p5">Maverick Vinales</p>
@@ -92,13 +94,16 @@ export default function Main3() {
             </div>
           </div>
           <div className="article article2">
-            <Image
-              src="/img/tipsntrick.jpg"
-              alt="people shaking hands"
-              width={350}
-              height={280}
-              className="m3gi3_img img3"
-            />
+            <div className="m3gi3_img_wrapper">
+              <Image
+                src="/img/tipsntrick.jpg"
+                alt="people shaking hands"
+                width={290}
+                height={200}
+                className="m3gi3_img img3"
+              />
+            </div>
+
             <p className="m3gi3_p3">Tips n tricks</p>
             <p className="m3gi3_p4">
               Must know! How to collaborate with real estate agents
@@ -109,7 +114,7 @@ export default function Main3() {
                 alt="a smiling man"
                 width={40}
                 height={40}
-                className="m3gi3_img img4"
+                className="m3gi3_img author2_img"
               />
 
               <p className="m3gi3_p5">Jonah Liamsworth</p>
@@ -117,13 +122,15 @@ export default function Main3() {
             </div>
           </div>
           <div className="article article3">
-            <Image
-              src="/img/brown-kitchen.jpg"
-              alt="A kitchen"
-              width={350}
-              height={280}
-              className="m3gi3_img img5"
-            />
+            <div className="m3gi3_img_wrapper ">
+              <Image
+                src="/img/brown-kitchen.jpg"
+                alt="A kitchen"
+                width={290}
+                height={200}
+                className="m3gi3_img img5"
+              />
+            </div>
             <p className="m3gi3_p3">Interior</p>
             <p className="m3gi3_p4">
               The top 11 most magnificent houses around the world
@@ -134,7 +141,7 @@ export default function Main3() {
                 alt="a smiling woman"
                 width={40}
                 height={40}
-                className="m3gi3_img img6"
+                className="m3gi3_img author3_img"
               />
 
               <p className="m3gi3_p5">Lyoda Matchenko</p>

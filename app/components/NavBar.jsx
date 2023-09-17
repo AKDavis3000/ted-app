@@ -1,8 +1,17 @@
+'use client';
+
 import { FaBars } from 'react-icons/fa';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useState } from 'react';
 
 export default function NavBar() {
+  const [isActive, setIsActive] = useState(false);
+
+  function handleClick() {
+    setIsActive((prevState) => !prevState);
+  }
+
   return (
     <header className="nav_wrapper">
       <Image
@@ -13,7 +22,12 @@ export default function NavBar() {
         className="nav_logo"
       />
       <p className="nav_logo_p">teduhan</p>
-      <nav className="navbar">
+      <FaBars
+        className="fa-bars"
+        onClick={handleClick}
+      />
+      <button className="navbar_btn">register</button>
+      <nav className={isActive ? 'navbar' : 'navbar  navbar_active'}>
         <ul className="navbar_ul">
           <li>
             <Link
@@ -52,8 +66,6 @@ export default function NavBar() {
           </li>
         </ul>
       </nav>
-      <FaBars className="fa-bars" />
-      <button className="navbar_btn">register</button>
     </header>
   );
 }

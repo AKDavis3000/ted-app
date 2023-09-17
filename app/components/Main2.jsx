@@ -26,10 +26,10 @@ export default function Main2() {
         <div className="m2_inner_grid1">
           {/* inner first row */}
           <div className="m2_inner_grid_i1">
-            <div className="white_space">
+            <div className="white_space first_row">
               <p></p>
             </div>
-            <div className="">
+            <div className="second_row">
               <p>Renting</p>
             </div>
             <div>
@@ -38,10 +38,10 @@ export default function Main2() {
           </div>
           {/* second row */}
           <div className="m2_inner_grid_i2">
-            <div className="step1">
+            <div className="step1 first_row">
               <p>1st step</p>
             </div>
-            <div className="">
+            <div className=" second_row">
               <p>Check it</p>
             </div>
             <div className="">
@@ -50,10 +50,10 @@ export default function Main2() {
           </div>
           {/* 3rd row */}
           <div className="m2_inner_grid3">
-            <div>
+            <div className="first_row">
               <p>2nd step</p>
             </div>
-            <div>
+            <div className="second_row">
               <p>Signed Docs</p>
             </div>
             <div>
@@ -61,10 +61,10 @@ export default function Main2() {
             </div>
           </div>
           <div className="m2_inner_grid4">
-            <div>
+            <div className="first_row">
               <p>3rd step</p>
             </div>
-            <div>
+            <div className="second_row">
               <p>Get your keys</p>
             </div>
             <div>
