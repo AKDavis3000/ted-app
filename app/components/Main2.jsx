@@ -12,7 +12,6 @@ import {
 export default function Main2() {
   return (
     <section className="main2_wrapper">
-      {/* first grid item */}
       <div className="main2_grid_item1">
         <div className="m2_img">
           <Image
@@ -24,7 +23,6 @@ export default function Main2() {
           />
         </div>
         <div className="m2_inner_grid1">
-          {/* inner first row */}
           <div className="m2_inner_grid_i1">
             <div className="white_space first_row">
               <p></p>
@@ -36,7 +34,6 @@ export default function Main2() {
               <p>Buying</p>
             </div>
           </div>
-          {/* second row */}
           <div className="m2_inner_grid_i2">
             <div className="step1 first_row">
               <p>1st step</p>
@@ -48,7 +45,6 @@ export default function Main2() {
               <p>Check it</p>
             </div>
           </div>
-          {/* 3rd row */}
           <div className="m2_inner_grid3">
             <div className="first_row">
               <p>2nd step</p>
@@ -73,7 +69,6 @@ export default function Main2() {
           </div>
         </div>
       </div>
-      {/* second grid item */}
       <div className="main2_grid_item2">
         <p className="m2p1">Accelerate the buying process</p>
         <p className="m2p2">
@@ -100,7 +95,6 @@ export default function Main2() {
           {'Full smart home equipment system '}
         </p>
       </div>
-      {/* 3rd grid item */}
       <div className="main2_grid_item3">
         <p className="m2gi3_p1">Find amazing properties with the best prices</p>
         <p className="m2gi3_p2">
@@ -132,7 +126,6 @@ export default function Main2() {
           </div>
         </div>
       </div>
-      {/* 4th grid item */}
       <div className="main2_grid_item4">
         <Image
           src="/img/green-seat-kitchen-cropped.jpg"
@@ -187,7 +180,6 @@ export default function Main2() {
           </div>
         </div>
       </div>
-      {/* 5th grid item */}
       <div className="main2_grid_item5">
         <div className="m2gi5_header">
           <p className="m2gi5_p1">Listings we think you&apos;ll love</p>
@@ -197,7 +189,6 @@ export default function Main2() {
             teduhan&apos;s local experts
           </p>
         </div>
-        {/* grid */}
         <div className="m2_listings">
           <div className=" listing1">
             <div className="m2_img_wrapper">

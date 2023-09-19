@@ -4,7 +4,6 @@ import { FaBuilding, FaHandshake, FaLock, FaHeadset } from 'react-icons/fa';
 export default function Main1() {
   return (
     <section className="main1_wrapper">
-      {/* grid item 1 */}
       <div className="main1_grid_item1">
         <p className="main1_p p1">
           Curating the best properties that you truly deserve
@@ -61,7 +60,6 @@ export default function Main1() {
           />
         </div>
       </div>
-      {/* grid item 2 */}
       <div className="main1_grid_item2">
         <Image
           src="/img/Main1.png"
@@ -71,7 +69,7 @@ export default function Main1() {
           className="kitchen"
         />
       </div>
-      {/* 3rd grid item */}
+
       <div className="main1_footer main1_grid_item3">
         <p className="main1_p p3">Your most ideal solutions</p>
         <p className="main1_p p4">

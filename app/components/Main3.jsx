@@ -4,7 +4,6 @@ import Image from 'next/image';
 export default function Main3() {
   return (
     <section className="main3_wrapper">
-      {/* 1st grid item */}
       <div className="m3gi1">
         <Image
           src="/img/phone-no-bg.png"
@@ -14,7 +13,6 @@ export default function Main3() {
           className="m3gi1_img"
         />
       </div>
-      {/* second grid item */}
       <div className="m3gi2">
         <p className="m3gi2_p1">
           Sign up for our app and enjoy exclusive access
@@ -54,7 +52,6 @@ export default function Main3() {
           />
         </div>
       </div>
-      {/* 3rd grid item */}
       <div className="m3gi3">
         <div className="">
           <p className="m3gi3_p1">Latest blog posts</p>
@@ -64,7 +61,6 @@ export default function Main3() {
           </p>
           <button className="m3gi3_btn">View all posts</button>
         </div>
-        {/* all articles */}
         <div className="m3gi3_articles">
           <div className="article article1">
             <div className="m3gi3_img_wrapper">
